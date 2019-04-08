@@ -8,19 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0A42A8E3225BD0CC008D5164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42A8E2225BD0CC008D5164 /* AppDelegate.swift */; };
-		0A42A8E5225BD0CC008D5164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42A8E4225BD0CC008D5164 /* ViewController.swift */; };
 		0A42A8E7225BD0CD008D5164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A42A8E6225BD0CD008D5164 /* Assets.xcassets */; };
 		0A42A8EA225BD0CD008D5164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A42A8E8225BD0CD008D5164 /* Main.storyboard */; };
+		0A42A8F3225BD14D008D5164 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42A8F2225BD14D008D5164 /* TabViewController.swift */; };
+		0A42A8F7225BD1A3008D5164 /* AnnuityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42A8F6225BD1A3008D5164 /* AnnuityViewController.swift */; };
+		0A42A8F9225BD1BF008D5164 /* SaveMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42A8F8225BD1BF008D5164 /* SaveMoneyViewController.swift */; };
+		0A42A8FB225BD1EB008D5164 /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42A8FA225BD1EB008D5164 /* MortgageViewController.swift */; };
+		0A42A8FD225BD1FF008D5164 /* AmortizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42A8FC225BD1FF008D5164 /* AmortizationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A42A8DF225BD0CC008D5164 /* Financial Calculators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Financial Calculators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A42A8E2225BD0CC008D5164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A42A8E4225BD0CC008D5164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A42A8E6225BD0CD008D5164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A42A8E9225BD0CD008D5164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A42A8EB225BD0CD008D5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A42A8EC225BD0CD008D5164 /* Financial_Calculators.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Financial_Calculators.entitlements; sourceTree = "<group>"; };
+		0A42A8F2225BD14D008D5164 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		0A42A8F6225BD1A3008D5164 /* AnnuityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnuityViewController.swift; sourceTree = "<group>"; };
+		0A42A8F8225BD1BF008D5164 /* SaveMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMoneyViewController.swift; sourceTree = "<group>"; };
+		0A42A8FA225BD1EB008D5164 /* MortgageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
+		0A42A8FC225BD1FF008D5164 /* AmortizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				0A42A8E2225BD0CC008D5164 /* AppDelegate.swift */,
-				0A42A8E4225BD0CC008D5164 /* ViewController.swift */,
+				0A42A8F2225BD14D008D5164 /* TabViewController.swift */,
+				0A42A8F8225BD1BF008D5164 /* SaveMoneyViewController.swift */,
+				0A42A8F6225BD1A3008D5164 /* AnnuityViewController.swift */,
+				0A42A8FA225BD1EB008D5164 /* MortgageViewController.swift */,
+				0A42A8FC225BD1FF008D5164 /* AmortizationViewController.swift */,
 				0A42A8E6225BD0CD008D5164 /* Assets.xcassets */,
 				0A42A8E8225BD0CD008D5164 /* Main.storyboard */,
 				0A42A8EB225BD0CD008D5164 /* Info.plist */,
@@ -133,8 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A42A8E5225BD0CC008D5164 /* ViewController.swift in Sources */,
+				0A42A8F3225BD14D008D5164 /* TabViewController.swift in Sources */,
+				0A42A8F7225BD1A3008D5164 /* AnnuityViewController.swift in Sources */,
+				0A42A8F9225BD1BF008D5164 /* SaveMoneyViewController.swift in Sources */,
 				0A42A8E3225BD0CC008D5164 /* AppDelegate.swift in Sources */,
+				0A42A8FD225BD1FF008D5164 /* AmortizationViewController.swift in Sources */,
+				0A42A8FB225BD1EB008D5164 /* MortgageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
